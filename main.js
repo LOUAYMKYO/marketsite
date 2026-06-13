@@ -1,4 +1,5 @@
 /* ===== DATA ===== */
+console.log("JavaScript is connected!");
 const products = [
   { id: 1, name: "Organic Avocados", category: "Fruits", emoji: "🥑", price: 3.99, weight: "Pack of 3", badge: "organic" },
   { id: 2, name: "Fresh Strawberries", category: "Fruits", emoji: "🍓", price: 2.49, oldPrice: 3.29, weight: "500g", badge: "sale" },
