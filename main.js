@@ -266,4 +266,10 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCartBadge();
   renderCart();
   navigate('home');
+  window.navigate = navigate;
+window.addToCart = addToCart;
+window.removeFromCart = removeFromCart;
+window.changeQty = changeQty;
+window.toggleFav = toggleFav;
+  
 });
